@@ -129,7 +129,7 @@ func executeCommands(tx *sql.Tx, ctx context.Context, content []byte) error {
 			return err
 		}
 
-		fmt.Printf("Statement ausgeführt: %s\n", trimmedStatement)
+		fmt.Printf("statement executed: %s\n", trimmedStatement)
 	}
 	return nil
 
